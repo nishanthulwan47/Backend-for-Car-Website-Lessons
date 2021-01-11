@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Lesson2-restapis/bootstrap/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lesson3-graphql/graphql/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lesson4-microservices/eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lesson4-microservices/items/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lesson5-security/security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lesson6-consuming/consuming rest apis/consuming/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lesson6-consuming/consuming soap/consuming/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lesson7-documenting/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lesson8-testing/src/main/java" charset="UTF-8" />
+  </component>
+</project>

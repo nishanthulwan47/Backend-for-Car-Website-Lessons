@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lesson2-restapis/bootstrap/bootstrap.iml" filepath="$PROJECT_DIR$/Lesson2-restapis/bootstrap/bootstrap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson6-consuming/consuming soap/consuming/consuming.iml" filepath="$PROJECT_DIR$/Lesson6-consuming/consuming soap/consuming/consuming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson6-consuming/consuming rest apis/consuming/consuming (1).iml" filepath="$PROJECT_DIR$/Lesson6-consuming/consuming rest apis/consuming/consuming (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson7-documenting/document.iml" filepath="$PROJECT_DIR$/Lesson7-documenting/document.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson4-microservices/eureka/eureka.iml" filepath="$PROJECT_DIR$/Lesson4-microservices/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson3-graphql/graphql/graphql.iml" filepath="$PROJECT_DIR$/Lesson3-graphql/graphql/graphql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson4-microservices/items/microservices.iml" filepath="$PROJECT_DIR$/Lesson4-microservices/items/microservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson5-security/security/security.iml" filepath="$PROJECT_DIR$/Lesson5-security/security/security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson8-testing/testing.iml" filepath="$PROJECT_DIR$/Lesson8-testing/testing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/udacity-java-master.iml" filepath="$PROJECT_DIR$/.idea/udacity-java-master.iml" />
+    </modules>
+  </component>
+</project>
