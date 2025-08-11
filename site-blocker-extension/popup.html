@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Site Blocker</title>
+    <style>
+      :root{--bg:#0b0f13;--card:#121820;--text:#e5ecf3;--muted:#95a3b8;--acc:#4f91ff;--border:#1d2631}
+      *{box-sizing:border-box}
+      body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif}
+      .popup{width:280px;padding:14px;background:var(--card);border:1px solid var(--border)}
+      .row{display:flex;align-items:center;justify-content:space-between;gap:8px}
+      .count{color:var(--muted)}
+      .btn{padding:8px 12px;border-radius:8px;border:1px solid var(--border);background:#1a2532;color:#c8d5e6;cursor:pointer}
+      .btn.primary{background:var(--acc);color:#fff}
+      .hint{margin-top:10px;color:var(--muted);font-size:12px}
+    </style>
+  </head>
+  <body>
+    <div class="popup">
+      <div class="row">
+        <div>
+          <div id="status">Disabled</div>
+          <div class="count"><span id="num">0</span> domains</div>
+        </div>
+        <button id="toggleBtn" class="btn primary">Enable</button>
+      </div>
+      <div class="row" style="margin-top:8px">
+        <button id="manageBtn" class="btn">Manage list</button>
+      </div>
+      <div class="hint">Use the options page to add or remove domains.</div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+html,body{height:100%}
+body{margin:0;background:#0b0f13;color:#e5ecf3;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif}
+.wrap{min-height:100%;display:grid;place-items:center;padding:24px}
+.card{background:#121820;border:1px solid #1d2631;border-radius:12px;padding:24px;max-width:520px;width:100%;text-align:center}
+h1{margin:0 0 8px}
+p{margin:0 0 16px;color:#95a3b8}
+.actions{display:flex;gap:8px;justify-content:center}
+button{padding:10px 14px;border-radius:8px;border:1px solid #1d2631;background:#4f91ff;color:#fff;cursor:pointer}
+button.ghost{background:#1a2532;color:#c8d5e6}
+button:hover{filter:brightness(1.05)}

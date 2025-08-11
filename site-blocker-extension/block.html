@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blocked by Site Blocker</title>
+    <link rel="stylesheet" href="block.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="card">
+        <h1>Blocked</h1>
+        <p>This website has been blocked by Site Blocker.</p>
+        <div class="actions">
+          <button id="optionsBtn">Manage block list</button>
+          <button id="backBtn" class="ghost">Go back</button>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.getElementById('optionsBtn').addEventListener('click', () => {
+        if (chrome && chrome.runtime && chrome.runtime.openOptionsPage) {
+          chrome.runtime.openOptionsPage();
+        }
+      });
+      document.getElementById('backBtn').addEventListener('click', () => {
+        history.length > 1 ? history.back() : window.location.assign('about:blank');
+      });
+    </script>
+  </body>
+</html>
