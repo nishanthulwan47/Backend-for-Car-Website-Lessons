@@ -1,0 +1,31 @@
+:root{--bg:#0b0f13;--card:#121820;--text:#e5ecf3;--muted:#95a3b8;--acc:#4f91ff;--acc-2:#ff6a3d;--border:#1d2631}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;background:var(--bg);color:var(--text)}
+.container{max-width:800px;margin:24px auto;padding:20px;background:var(--card);border:1px solid var(--border);border-radius:12px}
+header{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+h1{font-size:20px;margin:0 12px 0 0}
+.status{color:var(--muted)}
+.add{margin:12px 0 24px}
+.add form{display:flex;gap:8px}
+.add input{flex:1;padding:10px 12px;border-radius:8px;border:1px solid var(--border);background:#0c131b;color:var(--text)}
+.add button{padding:10px 14px;border-radius:8px;border:1px solid var(--border);background:var(--acc);color:#fff;cursor:pointer}
+.hint{color:var(--muted);font-size:12px}
+.list ul{list-style:none;padding:0;margin:0}
+.list li{display:flex;align-items:center;justify-content:space-between;padding:10px 12px;border:1px solid var(--border);border-radius:8px;margin-bottom:8px;background:#0c131b}
+.list .domain{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;color:#d7e2f2}
+.list .actions{display:flex;gap:8px}
+.list button{padding:6px 10px;border-radius:8px;border:1px solid var(--border);background:#1a2532;color:#c8d5e6;cursor:pointer}
+.list button:hover{background:#223044}
+footer{display:flex;gap:8px;margin-top:16px}
+footer .btn-like, footer button{padding:8px 12px;border-radius:8px;border:1px solid var(--border);background:#1a2532;color:#c8d5e6;cursor:pointer}
+footer .btn-like:hover, footer button:hover{background:#223044}
+footer .danger{background:var(--acc-2);color:#fff}
+
+/* Toggle switch */
+.switch{position:relative;display:inline-block;width:46px;height:26px}
+.switch input{opacity:0;width:0;height:0}
+.slider{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background:#2a3442;transition:.2s;border-radius:999px;border:1px solid var(--border)}
+.slider:before{position:absolute;content:"";height:20px;width:20px;left:3px;bottom:2px;background:white;transition:.2s;border-radius:50%}
+input:checked + .slider{background:var(--acc)}
+input:checked + .slider:before{transform:translateX(18px)}

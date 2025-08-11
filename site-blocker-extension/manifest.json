@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Site Blocker",
+  "version": "1.0.0",
+  "description": "Block distracting websites with a configurable list and quick toggle.",
+  "permissions": [
+    "storage",
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_title": "Site Blocker",
+    "default_popup": "popup.html"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["block.html", "block.css"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "declarative_net_request": {
+    "rule_resources": []
+  }
+}
